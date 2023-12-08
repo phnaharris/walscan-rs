@@ -1,9 +1,6 @@
 use clap::Parser;
-use ethers::{
-    providers::{Http, Middleware, Provider},
-    types::*,
-    utils::format_ether,
-};
+use ethers_core::{types::*, utils::format_ether};
+use ethers_providers::{Http, Middleware, Provider};
 use serde::Serialize;
 use std::{
     fs::File,

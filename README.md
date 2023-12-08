@@ -18,7 +18,7 @@ cargo install --git https://github.com/phnaharris/walscan-rs.git
 ```
 Binary utils for getting wallet balance on EVM-compatible networks.
 
-Usage: walscan-rs [OPTIONS]
+Usage: walscan [OPTIONS]
 
 Options:
   -n, --network <NETWORK>  Network to fetch balance [default: mainnet]
